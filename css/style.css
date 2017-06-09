@@ -1,0 +1,42 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+
+}
+.container {
+	width:auto;
+	margin: 0 auto;
+	
+	align-content: center
+}
+.controls{ 
+	padding:50px 35%;
+	height:auto;
+	display:block;
+ }
+.wrapper {
+	margin:0 auto;
+	width:800px;
+	height:600px;
+	overflow:hidden;
+}
+.unit {
+	
+	width:20px;
+	height:20px;
+	display:hidden;
+	display:inline-block;
+	background-color:black;
+	float:left;
+
+}
+.showed {
+	background-color:red;
+	width:20px;
+	height:20px;
+	float:left;
+}
+.clear {
+	clear:both;
+}
